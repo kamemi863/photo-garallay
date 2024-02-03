@@ -1,1 +1,1 @@
-# photo-garallay
+# photo-galley
