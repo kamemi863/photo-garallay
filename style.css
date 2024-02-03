@@ -1,0 +1,11 @@
+header {
+  background-color: aquamarine;
+  height: 60px;
+}
+.top-photo {
+  text-align: center;
+}
+footer {
+  background-color: darkgray;
+  height: 70px;
+}
