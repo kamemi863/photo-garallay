@@ -22,3 +22,19 @@ h1 {
   transform: translate(-20%, -30%);
   color: white;
 }
+.fadein.show {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+.fadein {
+  opacity: 0;
+  transform: translate(0, 50%);
+  transition: 2s;
+}
