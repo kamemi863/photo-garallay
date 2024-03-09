@@ -22,19 +22,21 @@ h1 {
   transform: translate(-20%, -30%);
   color: white;
 }
-.fadein.show {
-  transform: translate(0, 0);
-  opacity: 1;
+.B {
+  margin: 70px 60px;
 }
-li {
-  list-style: none;
+.list {
+  margin-bottom: 140px;
 }
-img {
-  max-width: 100%;
-  vertical-align: bottom;
+.Garellry {
+  display: flex;
 }
-.fadein {
-  opacity: 0;
-  transform: translate(0, 50%);
-  transition: 2s;
+.right-vertical {
+  padding-left: 200px;
+}
+.left-beside {
+  padding-right: 60px;
+}
+.right-beside {
+  padding-left: 50px;
 }
