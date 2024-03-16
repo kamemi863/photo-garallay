@@ -28,17 +28,14 @@ h1 {
 .list {
   margin-bottom: 140px;
 }
-.Garellry {
+.garellry {
   display: flex;
 }
-.right-vertical {
-  padding-left: 200px;
+.right-text {
+  padding-left: 100px;
 }
-.left-beside {
-  padding-right: 60px;
-}
-.right-beside {
-  padding-left: 50px;
+.left-text {
+  padding-right: 100px;
 }
 footer {
   background-color: #7b4819;
