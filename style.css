@@ -1,6 +1,16 @@
 .top {
   background-color: #acd0c0;
-  height: 400px;
+  height: 600px;
 }
 .table {
+  background-color: #d9b44a;
+  height: 150px;
+}
+.garallay-1 {
+  background-color: #4f6457;
+  height: 900px;
+}
+.garallay-2 {
+  background-color: #75b1a9;
+  height: 900px;
 }
