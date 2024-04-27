@@ -1,11 +1,15 @@
+body {
+  font-family: "Kiwi Maru", serif;
+}
 header {
   background-color: #75b1a9;
   height: 100px;
 }
 h1 {
   position: fixed;
-  padding-top: 25px;
-  padding-left: 25px;
+  top: 25px;
+  left: 25px;
+  color: #ffffff;
 }
 .top {
   background-color: #acd0c0;
@@ -22,4 +26,9 @@ h1 {
 .garallay-2 {
   background-color: #75b1a9;
   height: 900px;
+}
+.kiwi-maru-regular {
+  font-family: "Kiwi Maru", serif;
+  font-weight: 400;
+  font-style: normal;
 }
