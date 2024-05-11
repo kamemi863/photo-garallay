@@ -2,7 +2,7 @@ body {
   font-family: "Kiwi Maru", serif;
 }
 header {
-  background-color: #75b1a9;
+  background-color: #92aac7;
   height: 100px;
 }
 h1 {
@@ -12,19 +12,19 @@ h1 {
   color: #ffffff;
 }
 .top {
-  background-color: #acd0c0;
+  background-color: #e2dfa2;
   height: 600px;
 }
 .table {
-  background-color: #d9b44a;
+  background-color: #ed5752;
   height: 150px;
 }
 .garallay-1 {
-  background-color: #4f6457;
+  background-color: #a1be95;
   height: 900px;
 }
 .garallay-2 {
-  background-color: #75b1a9;
+  background-color: #92aac7;
   height: 900px;
 }
 .kiwi-maru-regular {
