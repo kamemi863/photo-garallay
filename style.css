@@ -21,7 +21,7 @@ h1 {
 }
 nav {
   position: absolute;
-  left: 68%;
+  right: 10%;
   z-index: 999;
 }
 .menu {
@@ -39,7 +39,8 @@ nav {
 h2 {
   position: absolute;
   margin: 100px 0px 0px 260px;
-  font-size: 50px;
+  /*font-size: 50px;*/
+  font-size: max();
 }
 .down {
   position: absolute;
@@ -50,6 +51,11 @@ h2 {
   font-family: "Kiwi Maru", serif;
   font-weight: 400;
   font-style: normal;
+}
+.garallay-1 {
+  height: 1000px;
+  background-color: #ffffff;
+  display: flex;
 }
 .garallay-2 {
   height: 1000px;
