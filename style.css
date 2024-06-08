@@ -8,16 +8,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-.kitune {
-  font-size: 60px;
-}
-.sentence {
-  font-size: 20px;
-  padding-left: 70px;
-}
-.explane {
-  padding-left: 900px;
-}
+
 header {
   background-color: #a1be95;
   height: 300px;
@@ -50,14 +41,37 @@ nav {
   width: 800px;
   margin-left: 500px;
 }
-
+.top-color {
+  position: absolute;
+  margin: 180px 0px 0px 290px;
+  background-color: #ed5752;
+  width: 200px;
+  height: 80px;
+}
 h2 {
+  position: fixed;
   position: absolute;
   margin: 100px 0px 0px 260px;
   /*font-size: 50px;*/
   font-size: max(50px);
 }
-
+.garallay1-color {
+  background-color: #a1be95;
+  position: absolute;
+  margin: 34px 0px 0px 30px;
+  width: 200px;
+  height: 80px;
+}
+.kitune {
+  font-size: 60px;
+}
+.sentence-box {
+  font-size: 20px;
+  padding-left: 70px;
+}
+.explane {
+  padding-left: 1100px;
+}
 .garallay1-photo {
   display: flex;
   flex-wrap: wrap;
@@ -79,4 +93,14 @@ h2 {
 }
 .garallay1-photo img:nth-child(4) {
   height: 500px;
+}
+.garallay1-photo img:nth-child(5) {
+  height: 200px;
+  width: 40%;
+  background-color: #ed5752;
+}
+.garallay1-photo img:nth-child(6) {
+  height: 200px;
+  width: 60%;
+  background-color: #92aac7;
 }
