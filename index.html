@@ -9,7 +9,21 @@
     <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
   </head>
-  <script type="text/javascript">
+  
+  <body>
+    <header>
+      <div class="header-logo">
+        <h1 class="logo">きつねめぐり</h1>
+        <nav>
+          <div class="menu logo">マップ</div>
+          <div class="menu logo">何かが</div>
+          <div class="menu logo">入るかも</div>
+          <div class="menu logo">入るかも</div>
+        </nav>
+      </div>
+      <img class="top-photo" src="./photo/vertical.jpg" />
+    </header>
+    <script type="text/javascript">
 const targets = document.getElementsByClassName('fade');
 for(let i = targets.length; i--;){
  let observer = new IntersectionObserver((entries, observer) => {
@@ -23,24 +37,11 @@ for(let i = targets.length; i--;){
  observer.observe(targets[i]);
 }
 </script>
-  <body>
-    <header>
-      <div class="header-logo">
-        <h1 class="logo fade">きつねめぐり</h1>
-        <nav>
-          <div class="menu logo">マップ</div>
-          <div class="menu logo">何かが</div>
-          <div class="menu logo">入るかも</div>
-          <div class="menu logo">入るかも</div>
-        </nav>
-      </div>
-      <img class="top-photo" src="./photo/vertical.jpg" />
-    </header>
     <contents>
       <!--top-->
       <div class="top">
         <div class="top-color"></div>
-        <h2>山口県山口市の湯田温泉で<br>「きつね」をめぐってみる</br></h2>
+        <h2 class="fade">山口県山口市の湯田温泉で<br>「きつね」をめぐってみる</br></h2>
       </div>
 
       <!--garallay1-->
