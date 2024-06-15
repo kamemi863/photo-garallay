@@ -23,20 +23,7 @@
       </div>
       <img class="top-photo" src="./photo/vertical.jpg" />
     </header>
-    <script type="text/javascript">
-const targets = document.getElementsByClassName('fade');
-for(let i = targets.length; i--;){
- let observer = new IntersectionObserver((entries, observer) => {
-  for(let j = entries.length; j--;){
-   if (entries[j].isIntersecting) {
-    entries[j].target.classList.add('active');
-    observer.unobserve(entries[j].target);
-   }
-  }
- });
- observer.observe(targets[i]);
-}
-</script>
+   
     <contents>
       <!--top-->
       <div class="top">
@@ -48,7 +35,7 @@ for(let i = targets.length; i--;){
       <div class="garallay1">
         <div class="sentence-box">
          <div class="garallay1-color"></div>
-         <p class="kitune garallay1-logo">ゆう太</p>
+         <p class="kitune garallay1-logo fade">ゆう太</p>
          <p class="explane">テキストテキストテキストテキスト<br>テキストテキストテキストテキスト</br>テキストテキストテキストテキスト</p>
         </div>
         <!-- ランダムな画像 --> 
@@ -66,5 +53,20 @@ for(let i = targets.length; i--;){
       <!--map-->
       <div class="map"></div>
     </contents>
+    <script type="text/javascript">
+const targets = document.getElementsByClassName('fade');
+for(let i = targets.length; i--;){
+ let observer = new IntersectionObserver((entries, observer) => {
+  for(let j = entries.length; j--;){
+   if (entries[j].isIntersecting) {
+    entries[j].target.classList.add('active');
+   } else{
+    entries[j].target.classList.remove('active');
+   }
+  }
+ });
+ observer.observe(targets[i]);
+}
+</script>
   </body>
 </html>

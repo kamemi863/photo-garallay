@@ -72,8 +72,11 @@ h2 {
   padding-left: 70px;
   padding-bottom: 200px;
 }
+
 .explane {
-  padding-left: 1100px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
 }
 .garallay1-photo {
   display: flex;
