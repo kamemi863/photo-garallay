@@ -107,3 +107,12 @@ h2 {
   width: 60%;
   background-color: #92aac7;
 }
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  translate: opacity 1.5s, transform 1s;
+}
+.fade.active {
+  opacity: 1;
+  transform: translateY(0px);
+}

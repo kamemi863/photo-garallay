@@ -9,10 +9,24 @@
     <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
   </head>
+  <script type="text/javascript">
+const targets = document.getElementsByClassName('fade');
+for(let i = targets.length; i--;){
+ let observer = new IntersectionObserver((entries, observer) => {
+  for(let j = entries.length; j--;){
+   if (entries[j].isIntersecting) {
+    entries[j].target.classList.add('active');
+    observer.unobserve(entries[j].target);
+   }
+  }
+ });
+ observer.observe(targets[i]);
+}
+</script>
   <body>
     <header>
       <div class="header-logo">
-        <h1 class="logo">きつねめぐり</h1>
+        <h1 class="logo fade">きつねめぐり</h1>
         <nav>
           <div class="menu logo">マップ</div>
           <div class="menu logo">何かが</div>
