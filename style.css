@@ -48,7 +48,8 @@ nav {
   width: 200px;
   height: 80px;
 }
-h2 {
+.subtitle {
+  font-weight: bold;
   position: absolute;
   margin: 100px 0px 0px 260px;
   /*font-size: 50px;*/
@@ -63,9 +64,6 @@ h2 {
 }
 .garallay1-logo {
   position: absolute;
-}
-.kitune {
-  font-size: 60px;
 }
 .sentence-box {
   font-size: 20px;
