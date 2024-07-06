@@ -73,10 +73,8 @@ nav {
 }
 
 .explane {
-  width: 20%;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 100px;
+  width: 200px;
+  margin: 0 100px 0 auto;
 }
 .garallay1 {
   margin-bottom: 300px;
