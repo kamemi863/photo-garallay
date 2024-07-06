@@ -61,9 +61,7 @@ nav {
   width: 200px;
   height: 80px;
 }
-.h2 {
-  position: absolute;
-}
+
 .logo-size {
   font-size: 40px;
 }
@@ -75,6 +73,7 @@ nav {
 }
 
 .explane {
+  width: 20%;
   display: flex;
   justify-content: flex-end;
   padding-right: 100px;
