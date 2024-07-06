@@ -41,19 +41,18 @@ nav {
   width: 800px;
   margin-left: 500px;
 }
-.top-color {
-  position: absolute;
-  margin: 180px 0px 0px 290px;
-  background-color: #ed5752;
-  width: 200px;
-  height: 80px;
-}
+
 .subtitle {
   font-weight: bold;
   position: absolute;
   margin: 100px 0px 0px 260px;
   /*font-size: 50px;*/
   font-size: max(50px);
+}
+.hero-text {
+  background-color: #ed5752;
+  padding: 12px 20px;
+  border-radius: 25px;
 }
 .garallay1-color {
   background-color: #a1be95;
@@ -64,6 +63,7 @@ nav {
 }
 .garallay1-logo {
   position: absolute;
+  font-size: 60px;
 }
 .sentence-box {
   font-size: 20px;
