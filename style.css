@@ -10,8 +10,9 @@ body {
 }
 
 header {
+  position: sticky;
   background-color: #a1be95;
-  height: 300px;
+  z-index: 99;
 }
 .header-logo {
   position: fixed;
@@ -34,6 +35,31 @@ nav {
   font-size: 25px;
   margin-right: 30px;
 }
+main {
+  margin-top: 132px;
+}
+.c-info-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 72px 64px;
+  position: relative;
+}
+.c-bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  height: 100%;
+  transform: translateX(-50%);
+  background-color: #a1be95;
+}
+.c-info-sub {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 36px 64px 72px;
+  position: relative;
+}
 .top {
   height: 1000px;
 }
@@ -47,7 +73,6 @@ nav {
 }
 .subtitle {
   font-weight: bold;
-  position: absolute;
   margin: 100px 0px 0px 260px;
   /*font-size: 50px;*/
   font-size: max(50px);
