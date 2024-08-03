@@ -47,6 +47,10 @@ header li {
 main {
   margin-top: 132px;
 }
+.set {
+  width: 1200px;
+  margin: auto;
+}
 .c-info-main {
   max-width: 1200px;
   margin: 0 auto;
