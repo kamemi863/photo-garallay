@@ -11,7 +11,6 @@ body {
 
 header {
   position: sticky;
-  background-color: #a1be95;
   z-index: 99;
   display: flex;
   justify-content: space-between;
@@ -36,7 +35,7 @@ h1 {
 .c-lists {
   display: flex;
 }
-li {
+header li {
   list-style: none;
 }
 .menu {
