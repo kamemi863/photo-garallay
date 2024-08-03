@@ -148,6 +148,10 @@ main {
   width: 60%;
   background-color: #92aac7;
 }
+.SNS {
+  margin: 100px 0;
+}
+
 .fade {
   opacity: 0;
   transform: translateY(30px);
