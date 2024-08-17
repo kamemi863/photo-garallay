@@ -153,9 +153,9 @@ main {
 .sns {
   margin: 100px 0;
   display: flex;
+  justify-content: space-between;
 }
-.sns-logo {
-  padding-right: 30px;
+.sns-frame {
 }
 .fade {
   opacity: 0;
