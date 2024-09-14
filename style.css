@@ -47,10 +47,7 @@ header li {
 main {
   margin-top: 132px;
 }
-.set {
-  max-width: 1200px;
-  margin: auto;
-}
+
 .c-info-main {
   max-width: 1200px;
   margin: 0 auto;
@@ -108,9 +105,12 @@ main {
 }
 
 .sentence-box {
+  max-width: 1200px;
+  margin: 0 auto;
   font-size: 20px;
   padding-left: 70px;
-  padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
 
 .explane {
