@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="global-header">
       <!--div class="header-logo"-->
       <h1 class="logo">きつねめぐり</h1>
       <nav>
@@ -119,42 +119,30 @@
         <!--SNS-->
         <div class="sns">
           <div class="sns-logo">
-            <a>
-              <img src="./photo/SNSlogo-1.png" />
+            <a href="https://yudaonsen.com/" target="_blank">
+              <img src="./photo/snsphoto1.jpg" />
+            </a>
+            <p>湯田温泉<br />公式サイト<br /></p>
+          </div>
+          <div class="sns-logo">
+            <a href="https://www.yuda-onsen.jp/" target="_blank">
+              <img src="./photo/snsphoto2.png" />
+            </a>
+            <p>狐の足跡<br />公式サイト<br /></p>
+          </div>
+          <div class="sns-logo">
+            <a href="https://twitter.com/kitsunenoashiat" target="_blank">
+              <img src="./photo/snsphoto2.png" />
             </a>
           </div>
           <div class="sns-logo">
             <a>
-              <img src="./photo/SNSlogo-2.png" />
-            </a>
-          </div>
-          <div class="sns-logo">
-            <a>
-              <img src="./photo/SNSlogo-1.png" />
-            </a>
-          </div>
-          <div class="sns-logo">
-            <a>
-              <img src="./photo/SNSlogo-1.png" />
+              <img src="./photo/snsphoto3.png" />
             </a>
           </div>
         </div>
       </div>
     </main>
-    <script type="text/javascript">
-      const targets = document.getElementsByClassName("fade");
-      for (let i = targets.length; i--; ) {
-        let observer = new IntersectionObserver((entries, observer) => {
-          for (let j = entries.length; j--; ) {
-            if (entries[j].isIntersecting) {
-              entries[j].target.classList.add("active");
-            } else {
-              entries[j].target.classList.remove("active");
-            }
-          }
-        });
-        observer.observe(targets[i]);
-      }
-    </script>
+    <script type="./main.js"></script>
   </body>
 </html>

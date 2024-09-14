@@ -9,7 +9,7 @@ body {
   font-style: normal;
 }
 
-header {
+.global-header {
   position: sticky;
   top: 0;
 
@@ -48,7 +48,7 @@ main {
   margin-top: 132px;
 }
 .set {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 .c-info-main {
@@ -174,4 +174,18 @@ main {
 .fade.active {
   opacity: 1;
   transform: translateY(0px);
+}
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#back-to-top.show {
+  display: block;
 }
