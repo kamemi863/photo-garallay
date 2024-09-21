@@ -69,6 +69,7 @@ main {
   margin: 0 auto;
   padding: 90px 36px 64px 72px;
   position: relative;
+  font-size: 40px;
 }
 .top {
   height: 1000px;
