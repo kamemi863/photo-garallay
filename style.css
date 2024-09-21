@@ -152,7 +152,9 @@ main {
   background-color: #92aac7;
 }
 .sns {
-  margin: 100px 0;
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
